@@ -10,7 +10,9 @@ body {
  background-repeat: no-repeat;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
-  min-height: 500px; /* Ensures the div is tall enough to show the background */
+  height: 400px; /* Ensures the div is tall enough to show the background */
+  background-attachment: fixed;
+ 
   
 }
 
@@ -55,10 +57,7 @@ body {
   
 }
 
-.two{
-  float: left;
-  width: 50%;
-}
+
 
 
 button{
