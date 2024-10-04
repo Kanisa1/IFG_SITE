@@ -4,9 +4,8 @@
     justify-content: space-between; /* Space between logo, links, and button */
     align-items: center; /* Vertically align all items */
     padding: 10px 20px; /* Add padding for spacing */
-    background-color: #f9f9f9; /* Optional: Background color for the navbar */
+    background-color: #ffff; /* Optional: Background color for the navbar */
     position: relative;
-    background-color: lightgrey;
     height:90px
 }
 

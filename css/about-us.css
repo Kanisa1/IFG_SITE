@@ -13,7 +13,8 @@
     padding: 10px 20px; /* Add padding for spacing */
     background-color: #f9f9f9; /* Optional: Background color for the navbar */
     position: relative;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
+    background-color: white;
     height:90px;
     margin-top: 0;
 }
@@ -27,22 +28,141 @@
     justify-content: center; /* Center the navigation links */
 }
 
-
-
 .nav-links li a {
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-    color: #333;
-    font-weight: bolder;
-    text-transform: uppercase;
-    font-size: 15px;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  color: #333;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .nav-links li:hover > a {
-    color: red;
+  color: red;
 }
 
+
+/* Logo styling */
+.logo img {
+  max-width: 100px; /* Adjust based on your logo size */
+}
+
+/* Donate button fixed at the top-right corner */
+.donate-btn {
+  margin-left: auto;
+}
+
+.donate-btn button {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  /* border-top: 2px solid red; */
+  border-right: 2px solid green;
+  /* border-bottom: 2px solid blue; */
+  border-left: 2px solid yellow;
+}
+
+.donate-btn button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%; /* Adjust this based on screen size */
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 5px
+}
+
+
+/* Left side small boxes */
+.left-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+element {
+  border-top: 2px solid red;
+  border-right: 2px solid green;
+  border-bottom: 2px solid blue;
+  border-left: 2px solid yellow;
+}
+
+.box {
+  border-bottom: 2px solid blue;
+  border-top: 2px solid blue;
+  border-right: 2px solid blue;
+  border-left: 2px solid blue;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small-box {
+  width: 400px; /* Adjust width */
+  height: 190px; /* Adjust height */
+}
+
+/* Text and Button Styling for All Boxes */
+h2 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #3c60b5;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2a4893;
+}
+
+/* Right side large box */
+.large-box {
+  width: 600px; /* Adjust width */
+  height: 610px; /* Adjust height */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+/* Team styling */
 .team-section {
     padding: 50px 20px;
     background-color: #f9f9f9; /* Light background for contrast */
@@ -128,28 +248,7 @@
     background-color: white
 }
 
-/* Logo styling */
-.logo img {
-    max-width: 100px; /* Adjust based on your logo size */
-}
 
-/* Donate button fixed at the top-right corner */
-.donate-btn {
-    margin-left: auto;
-}
-
-.donate-btn button {
-    padding: 10px 20px;
-    background-color: red;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.donate-btn button:hover {
-    background-color: #218838;
-}
 
   
 /* Team Grid Styling */
@@ -248,7 +347,7 @@
 /* footer styles */
   
   footer {
-     background: url('../images/back.png');
+    background: url('../images/back.png');
     color: #ffffff;
     padding: 40px 20px;
   }
@@ -341,3 +440,54 @@
     width: 20px;
     height: 20px;
   }
+
+
+ 
+
+
+.team-chart {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.chart-member {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candle-box {
+  width: 100%;
+  background-color: #28a745; /* Green candle */
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.info-box {
+  color: white;
+}
+
+.line-top, .line-bottom {
+  width: 2px;
+  height: 20px;
+  background-color: #333; /* Candle wick color */
+}
+
+.line-top {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.line-bottom {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
