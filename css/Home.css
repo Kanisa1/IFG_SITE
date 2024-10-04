@@ -32,6 +32,18 @@
 
 
 
+.landing-page {
+  background-image: url('../images/back.png');
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  padding-top: 20%;
+  text-decoration: double;
+
+}
+
 .typing {
   font-size: 35px;
   white-space: nowrap;
