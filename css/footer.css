@@ -5,11 +5,13 @@
   }
   
   footer {
-    background-image: url("images/back.png");
+    background-image: url("../images/back.png");
     color: #ffffff;
     padding: 40px 20px;
     clear: both;
     height: 700px;
+    clear:both;
+    
   }
   
   .footer-container {

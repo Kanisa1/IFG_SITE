@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+.one-image {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 300px;
+    
+}
+
+.own{
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+    font-size: 20px;
+    height: 300px;
+    transform:scale(1);
+    transition: transform .8s ease;
+}
+       
+    
+    
+    
+    
+    
+    .own:hover {
+      transform: scale(1.1);
+    }
+
+
+.dropcap p {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+}
+
+.dropcap p::first-letter {
+    font-size: 4.5em;
+    font-weight: bold;
+    float: left;
+    margin-right: 9px;
+    line-height: 1;
+    color: black;
+}
+
+form {
+    width: 400px; /* Explicit width */
+    margin: 30px auto; /* Center the form horizontally */
+    padding: 20px; /* Padding for inner space */
+    background-color: #f4f4f4; /* Optional background for visibility */
+    border-radius: 10px; /* Optional border-radius for aesthetics */
+    margin-top: 200px;
+}
+
+
+
+
+form h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: goldenrod;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"], input[type="email"], input[type="number"], [type="datetime-local"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+/* Clearfix for clearing float issues */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.kuei{
+
+    background-color: bisque;
+    text-align: center;
+    height: 200px;
+    font-size: 15px;
+    
+   
+
+}
+
+.kuei form{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
