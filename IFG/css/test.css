@@ -1,0 +1,98 @@
+/* Apply styles only to the .bio-page section */
+.bio-page {
+    background-color: white; /* Dark background for this page only */
+    padding: 40px;
+}
+
+.bio-page .container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    gap: 20px;
+    width: 100%;  /* Full width of the page */
+}
+
+.bio-page .bio-section {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    background-color: #3B2A2A;  /* Chocolate background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    padding: 30px;
+    color: #f5f5f5;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bio-page .bio-image {
+    flex-shrink: 0;
+}
+
+.bio-page .bio-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #b38643;  /* Gold border */
+}
+
+.bio-page .bio-description {
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.bio-page .bio-description h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+.bio-page .bio-description p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.bio-page .bio-description h3 {
+    font-size: 24px;
+    color: #b38643;  /* Gold color */
+    margin-bottom: 5px;
+}
+
+.bio-page .author-tag {
+    font-size: 18px;
+    color: #b38643;  /* Gold color */
+    font-style: italic;
+}
+
+/* Responsive design for bio-page */
+@media (max-width: 900px) {
+    .bio-page .bio-section {
+        flex-direction: column; /* Stack vertically on smaller screens */
+        text-align: center;
+    }
+
+    .bio-page .bio-description {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .bio-page .bio-image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .bio-page .bio-description h2 {
+        font-size: 24px;
+    }
+
+    .bio-page .bio-description h3 {
+        font-size: 20px;
+    }
+
+    .bio-page .bio-description p {
+        font-size: 14px;
+    }
+}

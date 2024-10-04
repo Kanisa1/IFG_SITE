@@ -2,7 +2,7 @@
 .one {
   background-image: url("images/doct.jpg");
   background-size: cover;
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 35px;
   border-bottom-right-radius: 35px;
   height: 400px; /* Ensures the div is tall enough to show the background */
@@ -79,6 +79,48 @@ button{
 }
 
 
+.about-us {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Create the arrow pointing to the parent link */
+.dropdown::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Position it right above the dropdown */
+  left: 20px; /* Adjust based on alignment */
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent; /* This creates a downward-pointing triangle */
+}
+
+.dropdown li {
+  list-style-type: none;
+  padding: 8px 16px;
+}
+
+.dropdown li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown li a:hover {
+  background-color: #f0f0f0;
+}
 
 
 
