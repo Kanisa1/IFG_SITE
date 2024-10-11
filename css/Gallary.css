@@ -14,7 +14,7 @@
   background-color: #f9f9f9; /* Optional: Background color for the navbar */
   position: relative;
   /* background-color: lightgrey; */
-  background-color: antiquewhite;
+  background-color: ;
   height:90px;
   margin-top: 0;
 }
@@ -39,7 +39,7 @@ font-size: 15px;
 }
 
 .nav-links li:hover > a {
-color: red;
+color: #d4af37;
 }
 
 
@@ -55,19 +55,19 @@ margin-left: auto;
 
 .donate-btn button {
 padding: 10px 20px;
-background-color: red;
+background-color: gold;
 color: #fff;
 border: none;
 cursor: pointer;
 font-size: 16px;
 /* border-top: 2px solid red; */
-border-right: 2px solid green;
+border-right: 2px solid #d4af37;
 /* border-bottom: 2px solid blue; */
 border-left: 2px solid yellow;
 }
 
 .donate-btn button:hover {
-background-color: #218838;
+background-color: gold;
 }
 
 
@@ -80,9 +80,11 @@ background-color: #218838;
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
+    background: url(../images/.jpg) no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire viewport */
     color: #333;
 }
+
 
 .gallery-container {
     width: 90%;
@@ -179,7 +181,7 @@ h1 {
   }
   
   footer {
-    background-image: url("back.png");
+    background-image: url("../images/back.png");
     color: #ffffff;
     padding: 40px 20px;
     clear: both;
