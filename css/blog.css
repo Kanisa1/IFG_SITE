@@ -1,0 +1,533 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:chocolate;
+    padding: 20px;
+    color: #333;
+}
+
+
+.donate-btn button  {
+    background-color: gold; /* Set background color to gold */
+    color: black; /* Set text color to black for contrast */
+    border-radius: 5px; /* Optional: add rounded corners */
+    width: 100px;
+    height: 50px;
+    margin-top: 15px; 
+}
+
+
+
+/* blog Collection Section */
+.blog-collection {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-collection h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.blog-collection p {
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: #333333;
+    border: 5px solid #d4af37; /* Gold */
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.blog-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.blog-card a.cta {
+    display: inline-block;
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: #F0F8FF;
+    color: #333;
+}
+
+/* Blog Section Styling */
+.blog-section {
+    padding: 30px;
+    background-color: black;
+    margin-bottom: 50px;
+    border-radius: 20px;  /* Add border radius */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow for effect */
+    
+}
+
+/* Testimony Section Styling */
+.testimony-section {
+    background-color: paperwhite;
+    color: black;
+    padding: 40px;
+    border-radius: px;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow for effect */
+     border: 5px solid #d4af37;
+}
+
+/* Blog Header */
+.blog-header {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.blog-header h1 {
+    font-size: 48px;
+    color: #333;
+}
+
+.header-line {
+    margin-top: 10px;
+    border: 1px solid #d4a373;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Articles Layout */
+.article-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 20px;
+}
+
+.article {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.article-image img {
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    object-fit: cover;
+}
+
+.article-content {
+    width: 400px !important; 
+    padding: 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.article-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.article-title-highlighted {
+    color: #d4a373; 
+}
+
+.article-date {
+    color: #d4a373;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.article-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Container for Testimony Section */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Profile Section */
+.profile {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 270px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* About Section */
+.about {
+    max-width: 600px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* Author Navigation */
+.author-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons button {
+    background-color: #d4a373;
+    color: #1a1a1a;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .plant-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: url('../images/back.png') no-repeat center center / cover;
+
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 150px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.email-subscribe p {
+  margin-bottom: 10px;
+}
+
+.email-subscribe form {
+  display: flex;
+}
+
+.email-subscribe input {
+  padding: 10px;
+  flex: 1;
+  border: none;
+  border-radius: 4px;
+}
+
+.email-subscribe button {
+  background-color: #f15a24;
+  border: none;
+  padding: 0 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.email-subscribe button:hover {
+  background-color: #d9481b;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #2b2d42;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+/* TESTIMONY S */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: gray;
+    color: #333;
+}
+
+/* Services Section Heading */
+.services-section {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust this value to move it closer */
+    margin-top: 100px; /* Reduce this value to bring it downwards */
+}
+
+.services-section h2 {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #f9ce1d;
+    margin: 10px auto 0;
+}
+
+
+
+/* Testimonial Section */
+.testimonials-section {
+    padding: 50px 0;
+    text-align: center;
+    border: 5px solid #d4af37;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: center; /* Centers the cards vertically if the container height increases */
+    gap: 40px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Testimonial Card Styling */
+.testimonial-card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card.light {
+    background-color: #f5f5f5;
+}
+
+.testimonial-card.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.testimonial-card.light::before {
+    border-width: 20px 15px 0 15px;
+    border-color: #f5f5f5 transparent transparent transparent;
+}
+
+.testimonial-card.dark::before {
+    border-width: 20px 15px 0 15px;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* Testimonial Content */
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 100px; /* Keep width */
+    height: 100px; /* Keep height */
+    border: 4px solid #d4af37; /* Colorful border */
+    border-radius: 50%; /* Circular shape */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Deeper shadow for more depth */
+}
+
+
+
+.profile-img:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Increase shadow on hover */
+}
+
+
+
+
+.quote {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Stars */
+.stars {
+    margin-bottom: 10px;
+}
+
+.star {
+    color: #ffdd33;
+    font-size: 20px;
+}
