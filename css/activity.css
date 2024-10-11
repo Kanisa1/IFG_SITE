@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+   border: 10px solid #d4af37;
 }
 
 /* Styles for the image-section */
@@ -18,6 +19,7 @@ body {
     font-size: 2.5em;
     color: #444;
     margin-bottom: 10px;
+
 }
 
 .image-section p {
